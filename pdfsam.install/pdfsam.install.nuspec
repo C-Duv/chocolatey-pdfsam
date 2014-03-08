@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>pdfsam.install</id>
+    <title>pdfsam (Install)</title>
+    <version>2.2.2</version>
+    <authors>Andrea Vacondio</authors>
+    <owners>DUVERGIER Claude</owners>
+    <summary>A simple tool designed to split and merge pdf files.</summary>
+    <description>PDFsam is a free, open source, platform independent tool released under GPLv2 license and designed to perform split, merge and other manipulations on pdf document. It’s released in 2 versions, basic and enhanced.</description>
+    <projectUrl>http://www.pdfsam.org</projectUrl>
+    <tags>pdf pdfsam</tags>
+    <copyright></copyright>
+    <licenseUrl>http://creativecommons.org/licenses/by-sa/3.0/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.github.com/C-Duv/chocolatey-pdfsam/master/pdfsam.install/pdfsamLogo.png</iconUrl>
+    <dependencies>
+      <dependency id="javaruntime" version="6.0.0" />
+    </dependencies>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
