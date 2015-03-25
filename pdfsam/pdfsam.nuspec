@@ -2,12 +2,12 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>pdfsam</id>
-    <title>PDFsam</title>
+    <title>PDFsam Basic</title>
     <version>2.2.4</version>
     <authors>Andrea Vacondio</authors>
     <owners>DUVERGIER Claude</owners>
     <summary>A simple tool designed to split and merge pdf files.</summary>
-    <description>PDFsam is a free, open source, platform independent tool released under GPLv2 license and designed to perform split, merge and other manipulations on pdf document. It’s released in 2 versions, basic and enhanced.</description>
+    <description>PDFsam is a free, open source, platform independent tool released under GPLv2 license and designed to perform split, merge and other manipulations on pdf document. It’s released in 2 versions, basic and enhanced: This is the basic version, see http://www.pdfsam.org/enhanced-version/ for the enhanced version.</description>
     <projectUrl>http://www.pdfsam.org</projectUrl>
     <tags>pdf pdfsam</tags>
     <copyright></copyright>
