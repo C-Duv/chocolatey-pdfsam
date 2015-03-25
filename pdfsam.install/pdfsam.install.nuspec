@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>pdfsam.install</id>
-    <title>pdfsam (Install)</title>
+    <title>PDFsam (Install)</title>
     <version>2.2.4</version>
     <authors>Andrea Vacondio</authors>
     <owners>DUVERGIER Claude</owners>
