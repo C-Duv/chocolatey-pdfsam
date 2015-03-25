@@ -13,7 +13,7 @@
     <copyright></copyright>
     <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://raw.github.com/C-Duv/chocolatey-pdfsam/master/pdfsam.install/pdfsamLogo.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/TomOne/various/4985f9952bfcc4af416e18ba4ac42118845e21fa/pdfsam.svg</iconUrl>
     <dependencies>
       <dependency id="javaruntime" version="6.0.0" />
     </dependencies>
