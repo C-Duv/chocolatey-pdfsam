@@ -1,14 +1,15 @@
+# MSI-uninstallation code from https://groups.google.com/forum/#!searchin/chocolatey/Get-WmiObject|sort:relevance/chocolatey/aQAAh21a6uM/vEzbX1OSrXQJ
 $packageName = 'pdfsam.install'
-$packageWildCard = 'PDF Split And Merge*'
-$packageVersion = '2.2.4'
-
-# MSI-uninstallation code copied from "calibre" package (https://github.com/chocolatey/chocolatey-coreteampackages)
-try {
-    $app = Get-WmiObject -Class Win32_Product | Where-Object { $_.Name -like $packageWildCard -and ($_.Version -eq $packageVersion) }
-    $result = $app.Uninstall();
-
-    Write-ChocolateySuccess $packageName
-}
-catch {
-    throw $_.Exception
-}
+$packageWildCard = 'PDFsam Basic'
+$installerType = 'msi'
+$silentArgs = '/quiet /qn /norestart'
+$validExitCodes = @(0,3010)
+Get-ItemProperty -Path @( 'HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*',
+                          'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
+                          'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*' ) `
+                 -ErrorAction:SilentlyContinue `
+| Where-Object   { $_.DisplayName -like "$packageWildCard*" } `
+| ForEach-Object { Uninstall-ChocolateyPackage -PackageName "$packageName" `
+                                               -FileType "$installerType" `
+                                               -SilentArgs "$($_.PSChildName) $silentArgs" `
+                                               -ValidExitCodes $validExitCodes }
