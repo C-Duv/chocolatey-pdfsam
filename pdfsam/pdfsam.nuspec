@@ -3,7 +3,7 @@
   <metadata>
     <id>pdfsam</id>
     <title>PDFsam Basic</title>
-    <version>2.2.4</version>
+    <version>3.0.0</version>
     <authors>Andrea Vacondio</authors>
     <owners>DUVERGIER Claude</owners>
     <summary>A simple tool designed to split and merge pdf files.</summary>
@@ -11,11 +11,11 @@
     <projectUrl>http://www.pdfsam.org</projectUrl>
     <tags>pdf pdfsam</tags>
     <copyright></copyright>
-    <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <licenseUrl>http://www.gnu.org/licenses/agpl-3.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/TomOne/various/4985f9952bfcc4af416e18ba4ac42118845e21fa/pdfsam.svg</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/torakiki/pdfsam/v3.0.0.RELEASE/pdfsam-community/src/main/resources/images/community/512x512.png</iconUrl>
     <dependencies>
-      <dependency id="pdfsam.install" version="[2.2.4]" />
+      <dependency id="pdfsam.install" version="[3.0.0]" />
     </dependencies>
     <releaseNotes></releaseNotes>
   </metadata>
