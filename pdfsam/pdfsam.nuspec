@@ -3,7 +3,7 @@
   <metadata>
     <id>pdfsam</id>
     <title>PDFsam Basic</title>
-    <version>3.0.0</version>
+    <version>3.0.1</version>
     <authors>Andrea Vacondio</authors>
     <owners>DUVERGIER Claude</owners>
     <summary>A simple tool designed to split and merge pdf files.</summary>
@@ -13,11 +13,11 @@
     <copyright></copyright>
     <licenseUrl>http://www.gnu.org/licenses/agpl-3.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/torakiki/pdfsam/v3.0.0.RELEASE/pdfsam-community/src/main/resources/images/community/512x512.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/torakiki/pdfsam/v3.0.1.RELEASE/pdfsam-community/src/main/resources/images/community/512x512.png</iconUrl>
     <dependencies>
-      <dependency id="pdfsam.install" version="[3.0.0]" />
+      <dependency id="pdfsam.install" version="[3.0.1]" />
     </dependencies>
-    <releaseNotes></releaseNotes>
+    <releaseNotes>http://www.pdfsam.org/pdf-split-and-merge/new-release/pdfsam-3-0-1-out/1392/</releaseNotes>
     <projectSourceUrl>https://github.com/torakiki/pdfsam</projectSourceUrl>
     <bugTrackerUrl>http://www.pdfsam.org/issue_tracker</bugTrackerUrl>
     <packageSourceUrl>https://github.com/C-Duv/chocolatey-pdfsam</packageSourceUrl>
