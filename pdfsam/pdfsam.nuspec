@@ -18,6 +18,10 @@
       <dependency id="pdfsam.install" version="[3.0.0]" />
     </dependencies>
     <releaseNotes></releaseNotes>
+    <projectSourceUrl>https://github.com/torakiki/pdfsam</projectSourceUrl>
+    <bugTrackerUrl>http://www.pdfsam.org/issue_tracker</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/C-Duv/chocolatey-pdfsam</packageSourceUrl>
+    <docsUrl>http://www.pdfsam.org/documentation</docsUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
