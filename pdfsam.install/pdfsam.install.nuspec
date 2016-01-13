@@ -17,7 +17,7 @@
     <dependencies>
       <dependency id="javaruntime" version="8.0.0" />
     </dependencies>
-    <releaseNotes></releaseNotes>
+    <releaseNotes>http://www.pdfsam.org/pdf-split-and-merge/new-release/pdfsam-3-0-1-out/1392/</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
