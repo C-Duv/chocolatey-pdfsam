@@ -1,10 +1,10 @@
 $packageInstallArgs = @{
     packageName    = 'pdfsam.install'
     fileType       = 'msi'
-    url            = 'https://github.com/torakiki/pdfsam/releases/download/v3.0.2.RELEASE/pdfsam-v3.0.2.RELEASE.msi'
+    url            = 'https://github.com/torakiki/pdfsam/releases/download/v3.0.3.RELEASE/pdfsam-v3.0.3.RELEASE.msi'
     silentArgs     = '/quiet CHECK_FOR_UPDATES=false SKIPTHANKSPAGE=Yes'
     validExitCodes = @(0)
-    checksum       = 'da1e043869ae15cf2e047793091a021672ae4a9d57cf951b8235e18efa42b194'
+    checksum       = 'f07049ae9752001063fd65878768891397bfc206b34cff16d790896483f4c326'
     checksumType   = 'sha256'
 }
 
